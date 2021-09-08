@@ -101,8 +101,9 @@ clearTmp()
 print("clear tmp files.")
 
 
+print("############################")
 print("1. Open Firefox.app")
-print("2. Click 'Quit Firefox'")
+print("2. Quit with 'Command + Q' or Click 'Quit Firefox'")
 
 let path = NSString(string: omnijaPath).deletingLastPathComponent
 
